@@ -1,0 +1,11 @@
+C:\Users\ACB Fibra\Documents\Projetos\CircodeApps\bin\Debug\CircodeApps.exe.config
+C:\Users\ACB Fibra\Documents\Projetos\CircodeApps\bin\Debug\CircodeApps.exe
+C:\Users\ACB Fibra\Documents\Projetos\CircodeApps\bin\Debug\CircodeApps.pdb
+C:\Users\ACB Fibra\Documents\Projetos\CircodeApps\obj\Debug\CircodeApps.csproj.AssemblyReference.cache
+C:\Users\ACB Fibra\Documents\Projetos\CircodeApps\obj\Debug\CircodeApps.frmImc.resources
+C:\Users\ACB Fibra\Documents\Projetos\CircodeApps\obj\Debug\CircodeApps.frmPrincipal.resources
+C:\Users\ACB Fibra\Documents\Projetos\CircodeApps\obj\Debug\CircodeApps.Properties.Resources.resources
+C:\Users\ACB Fibra\Documents\Projetos\CircodeApps\obj\Debug\CircodeApps.csproj.GenerateResource.cache
+C:\Users\ACB Fibra\Documents\Projetos\CircodeApps\obj\Debug\CircodeApps.csproj.CoreCompileInputs.cache
+C:\Users\ACB Fibra\Documents\Projetos\CircodeApps\obj\Debug\CircodeApps.exe
+C:\Users\ACB Fibra\Documents\Projetos\CircodeApps\obj\Debug\CircodeApps.pdb

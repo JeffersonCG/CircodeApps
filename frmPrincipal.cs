@@ -16,5 +16,16 @@ namespace CircodeApps
         {
             InitializeComponent();
         }
+
+        private void btnSair_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void picbImc_Click(object sender, EventArgs e)
+        {
+            frmImc imc = new frmImc();
+            imc.Show();
+        }
     }
 }
