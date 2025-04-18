@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\ACB Fibra\\Documents\\Projetos\\CircodeApps\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A43DD978-AC01-4D1A-A7C7-0EFEE33BAB2F}|CircodeApps.csproj|C:\\Users\\ACB Fibra\\Documents\\Projetos\\CircodeApps\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{A43DD978-AC01-4D1A-A7C7-0EFEE33BAB2F}|CircodeApps.csproj|c:\\users\\acb fibra\\documents\\projetos\\circodeapps\\frmlitro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A43DD978-AC01-4D1A-A7C7-0EFEE33BAB2F}|CircodeApps.csproj|solutionrelative:frmlitro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A43DD978-AC01-4D1A-A7C7-0EFEE33BAB2F}|CircodeApps.csproj|c:\\users\\acb fibra\\documents\\projetos\\circodeapps\\frmimc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A43DD978-AC01-4D1A-A7C7-0EFEE33BAB2F}|CircodeApps.csproj|solutionrelative:frmimc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A43DD978-AC01-4D1A-A7C7-0EFEE33BAB2F}|CircodeApps.csproj|c:\\users\\acb fibra\\documents\\projetos\\circodeapps\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{A43DD978-AC01-4D1A-A7C7-0EFEE33BAB2F}|CircodeApps.csproj|solutionrelative:frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A43DD978-AC01-4D1A-A7C7-0EFEE33BAB2F}|CircodeApps.csproj|c:\\users\\acb fibra\\documents\\projetos\\circodeapps\\frmdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A43DD978-AC01-4D1A-A7C7-0EFEE33BAB2F}|CircodeApps.csproj|solutionrelative:frmdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,11 +26,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "frmPrincipal.cs [Design]",
               "DocumentMoniker": "C:\\Users\\ACB Fibra\\Documents\\Projetos\\CircodeApps\\frmPrincipal.cs",
               "RelativeDocumentMoniker": "frmPrincipal.cs",
@@ -27,6 +39,42 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-17T14:22:32.626Z",
               "IsPinned": true,
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frmData.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ACB Fibra\\Documents\\Projetos\\CircodeApps\\frmData.cs",
+              "RelativeDocumentMoniker": "frmData.cs",
+              "ToolTip": "C:\\Users\\ACB Fibra\\Documents\\Projetos\\CircodeApps\\frmData.cs [Design]",
+              "RelativeToolTip": "frmData.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T20:30:31.528Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmLitro.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ACB Fibra\\Documents\\Projetos\\CircodeApps\\frmLitro.cs",
+              "RelativeDocumentMoniker": "frmLitro.cs",
+              "ToolTip": "C:\\Users\\ACB Fibra\\Documents\\Projetos\\CircodeApps\\frmLitro.cs [Design]",
+              "RelativeToolTip": "frmLitro.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T20:30:28.969Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmImc.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ACB Fibra\\Documents\\Projetos\\CircodeApps\\frmImc.cs",
+              "RelativeDocumentMoniker": "frmImc.cs",
+              "ToolTip": "C:\\Users\\ACB Fibra\\Documents\\Projetos\\CircodeApps\\frmImc.cs [Design]",
+              "RelativeToolTip": "frmImc.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T20:29:48.049Z",
               "EditorCaption": " [Design]"
             }
           ]

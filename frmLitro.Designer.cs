@@ -40,10 +40,10 @@
             // lblMls
             // 
             this.lblMls.AutoSize = true;
-            this.lblMls.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblMls.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblMls.Location = new System.Drawing.Point(-2, 9);
             this.lblMls.Name = "lblMls";
-            this.lblMls.Size = new System.Drawing.Size(594, 16);
+            this.lblMls.Size = new System.Drawing.Size(823, 25);
             this.lblMls.TabIndex = 1;
             this.lblMls.Text = "Digite a quantidade em MLs e o Preço para comparar qual produto e mais vantajoso." +
     "";
@@ -93,7 +93,7 @@
             // 
             this.lblResultado.AutoSize = true;
             this.lblResultado.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblResultado.Location = new System.Drawing.Point(28, 349);
+            this.lblResultado.Location = new System.Drawing.Point(25, 380);
             this.lblResultado.Name = "lblResultado";
             this.lblResultado.Size = new System.Drawing.Size(0, 16);
             this.lblResultado.TabIndex = 8;
@@ -102,7 +102,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(910, 567);
+            this.BackColor = System.Drawing.Color.DarkSlateGray;
+            this.ClientSize = new System.Drawing.Size(914, 601);
             this.Controls.Add(this.lblResultado);
             this.Controls.Add(this.pnlProdutos);
             this.Controls.Add(this.btnSair);
