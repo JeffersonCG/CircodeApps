@@ -36,9 +36,12 @@
             this.label1 = new System.Windows.Forms.Label();
             this.picLitro = new System.Windows.Forms.PictureBox();
             this.label2 = new System.Windows.Forms.Label();
+            this.picbAgua = new System.Windows.Forms.PictureBox();
+            this.label3 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.picbImc)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picbData)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picLitro)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picbAgua)).BeginInit();
             this.SuspendLayout();
             // 
             // btnSair
@@ -46,7 +49,7 @@
             this.btnSair.BackColor = System.Drawing.Color.Red;
             this.btnSair.Font = new System.Drawing.Font("Microsoft Sans Serif", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSair.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.btnSair.Location = new System.Drawing.Point(842, 481);
+            this.btnSair.Location = new System.Drawing.Point(676, 481);
             this.btnSair.Name = "btnSair";
             this.btnSair.Size = new System.Drawing.Size(152, 82);
             this.btnSair.TabIndex = 0;
@@ -117,12 +120,35 @@
             this.label2.TabIndex = 6;
             this.label2.Text = "Calculo por litro";
             // 
+            // picbAgua
+            // 
+            this.picbAgua.Image = ((System.Drawing.Image)(resources.GetObject("picbAgua.Image")));
+            this.picbAgua.Location = new System.Drawing.Point(700, 12);
+            this.picbAgua.Name = "picbAgua";
+            this.picbAgua.Size = new System.Drawing.Size(128, 128);
+            this.picbAgua.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picbAgua.TabIndex = 7;
+            this.picbAgua.TabStop = false;
+            this.picbAgua.Click += new System.EventHandler(this.picbAgua_Click);
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(676, 143);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(172, 25);
+            this.label3.TabIndex = 8;
+            this.label3.Text = "Calculo de Agua";
+            // 
             // frmPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkSlateGray;
-            this.ClientSize = new System.Drawing.Size(1006, 575);
+            this.ClientSize = new System.Drawing.Size(865, 575);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.picbAgua);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.picLitro);
             this.Controls.Add(this.label1);
@@ -138,6 +164,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.picbImc)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picbData)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picLitro)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picbAgua)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -152,6 +179,8 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox picLitro;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.PictureBox picbAgua;
+        private System.Windows.Forms.Label label3;
     }
 }
 

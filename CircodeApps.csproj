@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="frmAgua.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAgua.Designer.cs">
+      <DependentUpon>frmAgua.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmLitro.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -72,6 +78,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmAgua.resx">
+      <DependentUpon>frmAgua.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmData.resx">
       <DependentUpon>frmData.cs</DependentUpon>
     </EmbeddedResource>

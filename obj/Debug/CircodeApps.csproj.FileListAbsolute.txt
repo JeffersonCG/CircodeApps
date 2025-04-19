@@ -11,3 +11,4 @@ C:\Users\ACB Fibra\Documents\Projetos\CircodeApps\obj\Debug\CircodeApps.exe
 C:\Users\ACB Fibra\Documents\Projetos\CircodeApps\obj\Debug\CircodeApps.pdb
 C:\Users\ACB Fibra\Documents\Projetos\CircodeApps\obj\Debug\CircodeApps.frmData.resources
 C:\Users\ACB Fibra\Documents\Projetos\CircodeApps\obj\Debug\CircodeApps.frmLitro.resources
+C:\Users\ACB Fibra\Documents\Projetos\CircodeApps\obj\Debug\CircodeApps.frmAgua.resources

@@ -72,13 +72,15 @@
             // 
             // btnSair
             // 
+            this.btnSair.BackColor = System.Drawing.Color.Red;
             this.btnSair.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSair.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.btnSair.Location = new System.Drawing.Point(781, 470);
             this.btnSair.Name = "btnSair";
             this.btnSair.Size = new System.Drawing.Size(108, 85);
             this.btnSair.TabIndex = 4;
             this.btnSair.Text = "Sair";
-            this.btnSair.UseVisualStyleBackColor = true;
+            this.btnSair.UseVisualStyleBackColor = false;
             this.btnSair.Click += new System.EventHandler(this.btnSair_Click);
             // 
             // pnlProdutos

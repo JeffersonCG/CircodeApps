@@ -39,5 +39,11 @@ namespace CircodeApps
             frmLitro litro = new frmLitro();
             litro.Show();
         }
+
+        private void picbAgua_Click(object sender, EventArgs e)
+        {
+            frmAgua agua = new frmAgua();
+            agua.Show();
+        }
     }
 }
