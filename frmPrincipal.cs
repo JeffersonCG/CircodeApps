@@ -45,5 +45,11 @@ namespace CircodeApps
             frmAgua agua = new frmAgua();
             agua.Show();
         }
+
+        private void picbViagem_Click(object sender, EventArgs e)
+        {
+            frmViagem viagem = new frmViagem();
+            viagem.Show();
+        }
     }
 }

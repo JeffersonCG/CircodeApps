@@ -52,17 +52,17 @@
     <Compile Include="frmAgua.Designer.cs">
       <DependentUpon>frmAgua.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmLitro.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmLitro.Designer.cs">
-      <DependentUpon>frmLitro.cs</DependentUpon>
-    </Compile>
     <Compile Include="frmData.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmData.Designer.cs">
       <DependentUpon>frmData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLitro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLitro.Designer.cs">
+      <DependentUpon>frmLitro.cs</DependentUpon>
     </Compile>
     <Compile Include="frmImc.cs">
       <SubType>Form</SubType>
@@ -75,6 +75,12 @@
     </Compile>
     <Compile Include="frmPrincipal.Designer.cs">
       <DependentUpon>frmPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmViagem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmViagem.Designer.cs">
+      <DependentUpon>frmViagem.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -92,6 +98,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmPrincipal.resx">
       <DependentUpon>frmPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmViagem.resx">
+      <DependentUpon>frmViagem.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

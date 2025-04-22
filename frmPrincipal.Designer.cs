@@ -38,10 +38,13 @@
             this.label2 = new System.Windows.Forms.Label();
             this.picbAgua = new System.Windows.Forms.PictureBox();
             this.label3 = new System.Windows.Forms.Label();
+            this.lblViagem = new System.Windows.Forms.Label();
+            this.picbViagem = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.picbImc)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picbData)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picLitro)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picbAgua)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picbViagem)).BeginInit();
             this.SuspendLayout();
             // 
             // btnSair
@@ -141,12 +144,35 @@
             this.label3.TabIndex = 8;
             this.label3.Text = "Calculo de Agua";
             // 
+            // lblViagem
+            // 
+            this.lblViagem.AutoSize = true;
+            this.lblViagem.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblViagem.Location = new System.Drawing.Point(7, 378);
+            this.lblViagem.Name = "lblViagem";
+            this.lblViagem.Size = new System.Drawing.Size(238, 31);
+            this.lblViagem.TabIndex = 10;
+            this.lblViagem.Text = "Calculo de viagem";
+            // 
+            // picbViagem
+            // 
+            this.picbViagem.Image = ((System.Drawing.Image)(resources.GetObject("picbViagem.Image")));
+            this.picbViagem.Location = new System.Drawing.Point(25, 247);
+            this.picbViagem.Name = "picbViagem";
+            this.picbViagem.Size = new System.Drawing.Size(128, 128);
+            this.picbViagem.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picbViagem.TabIndex = 9;
+            this.picbViagem.TabStop = false;
+            this.picbViagem.Click += new System.EventHandler(this.picbViagem_Click);
+            // 
             // frmPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkSlateGray;
             this.ClientSize = new System.Drawing.Size(865, 575);
+            this.Controls.Add(this.lblViagem);
+            this.Controls.Add(this.picbViagem);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.picbAgua);
             this.Controls.Add(this.label2);
@@ -165,6 +191,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.picbData)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picLitro)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picbAgua)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picbViagem)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -181,6 +208,8 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.PictureBox picbAgua;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label lblViagem;
+        private System.Windows.Forms.PictureBox picbViagem;
     }
 }
 
