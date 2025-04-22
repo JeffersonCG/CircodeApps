@@ -46,9 +46,9 @@
             // btnCalcular
             // 
             this.btnCalcular.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCalcular.Location = new System.Drawing.Point(522, 77);
+            this.btnCalcular.Location = new System.Drawing.Point(522, 80);
             this.btnCalcular.Name = "btnCalcular";
-            this.btnCalcular.Size = new System.Drawing.Size(93, 29);
+            this.btnCalcular.Size = new System.Drawing.Size(111, 48);
             this.btnCalcular.TabIndex = 0;
             this.btnCalcular.Text = "Calcular";
             this.btnCalcular.UseVisualStyleBackColor = true;
@@ -60,7 +60,7 @@
             this.lblAutonomia.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAutonomia.Location = new System.Drawing.Point(16, 56);
             this.lblAutonomia.Name = "lblAutonomia";
-            this.lblAutonomia.Size = new System.Drawing.Size(173, 20);
+            this.lblAutonomia.Size = new System.Drawing.Size(138, 16);
             this.lblAutonomia.TabIndex = 2;
             this.lblAutonomia.Text = "Autonomia (Km/LT)";
             // 
@@ -77,7 +77,7 @@
             this.lblDistancia.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblDistancia.Location = new System.Drawing.Point(16, 225);
             this.lblDistancia.Name = "lblDistancia";
-            this.lblDistancia.Size = new System.Drawing.Size(235, 20);
+            this.lblDistancia.Size = new System.Drawing.Size(188, 16);
             this.lblDistancia.TabIndex = 4;
             this.lblDistancia.Text = "Distancia a percorrer (Km)";
             // 
@@ -87,7 +87,7 @@
             this.lblResultado.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblResultado.Location = new System.Drawing.Point(16, 344);
             this.lblResultado.Name = "lblResultado";
-            this.lblResultado.Size = new System.Drawing.Size(103, 20);
+            this.lblResultado.Size = new System.Drawing.Size(82, 16);
             this.lblResultado.TabIndex = 5;
             this.lblResultado.Text = "Resultado:";
             // 
@@ -97,7 +97,7 @@
             this.lblMostrarLitros.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblMostrarLitros.Location = new System.Drawing.Point(16, 405);
             this.lblMostrarLitros.Name = "lblMostrarLitros";
-            this.lblMostrarLitros.Size = new System.Drawing.Size(0, 36);
+            this.lblMostrarLitros.Size = new System.Drawing.Size(0, 29);
             this.lblMostrarLitros.TabIndex = 6;
             // 
             // lblGastos
@@ -106,7 +106,7 @@
             this.lblGastos.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblGastos.Location = new System.Drawing.Point(16, 473);
             this.lblGastos.Name = "lblGastos";
-            this.lblGastos.Size = new System.Drawing.Size(0, 36);
+            this.lblGastos.Size = new System.Drawing.Size(0, 29);
             this.lblGastos.TabIndex = 7;
             // 
             // lblPreco
@@ -115,7 +115,7 @@
             this.lblPreco.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblPreco.Location = new System.Drawing.Point(16, 145);
             this.lblPreco.Name = "lblPreco";
-            this.lblPreco.Size = new System.Drawing.Size(266, 20);
+            this.lblPreco.Size = new System.Drawing.Size(213, 16);
             this.lblPreco.TabIndex = 9;
             this.lblPreco.Text = "Preço do combustivel (R$/LT)";
             // 
@@ -145,19 +145,22 @@
             // 
             // btnSair
             // 
+            this.btnSair.BackColor = System.Drawing.Color.Red;
             this.btnSair.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSair.Location = new System.Drawing.Point(540, 460);
+            this.btnSair.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.btnSair.Location = new System.Drawing.Point(522, 441);
             this.btnSair.Name = "btnSair";
-            this.btnSair.Size = new System.Drawing.Size(93, 29);
+            this.btnSair.Size = new System.Drawing.Size(111, 48);
             this.btnSair.TabIndex = 13;
             this.btnSair.Text = "Sair";
-            this.btnSair.UseVisualStyleBackColor = true;
+            this.btnSair.UseVisualStyleBackColor = false;
             this.btnSair.Click += new System.EventHandler(this.btnSair_Click);
             // 
             // frmViagem
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.DarkSlateGray;
             this.ClientSize = new System.Drawing.Size(653, 523);
             this.Controls.Add(this.btnSair);
             this.Controls.Add(this.txtbDistancia);
@@ -173,6 +176,7 @@
             this.Controls.Add(this.btnCalcular);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmViagem";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Calculo de viagem";
             this.Load += new System.EventHandler(this.frmViagem_Load);
             this.ResumeLayout(false);

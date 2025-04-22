@@ -41,12 +41,11 @@
             // 
             this.lblMls.AutoSize = true;
             this.lblMls.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMls.Location = new System.Drawing.Point(-2, 9);
+            this.lblMls.Location = new System.Drawing.Point(26, 22);
             this.lblMls.Name = "lblMls";
-            this.lblMls.Size = new System.Drawing.Size(823, 25);
+            this.lblMls.Size = new System.Drawing.Size(263, 25);
             this.lblMls.TabIndex = 1;
-            this.lblMls.Text = "Digite a quantidade em MLs e o Preço para comparar qual produto e mais vantajoso." +
-    "";
+            this.lblMls.Text = "Digite nome, MLs e preço,";
             // 
             // btnCalcular
             // 

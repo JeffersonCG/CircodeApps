@@ -13,3 +13,5 @@ C:\Users\ACB Fibra\Documents\Projetos\CircodeApps\obj\Debug\CircodeApps.frmData.
 C:\Users\ACB Fibra\Documents\Projetos\CircodeApps\obj\Debug\CircodeApps.frmLitro.resources
 C:\Users\ACB Fibra\Documents\Projetos\CircodeApps\obj\Debug\CircodeApps.frmAgua.resources
 C:\Users\ACB Fibra\Documents\Projetos\CircodeApps\obj\Debug\CircodeApps.frmViagem.resources
+C:\Users\ACB Fibra\Documents\Projetos\CircodeApps\obj\Debug\CircodeApps.frmMegaSena.resources
+C:\Users\ACB Fibra\Documents\Projetos\CircodeApps\obj\Debug\CircodeApps.frmMoeda.resources

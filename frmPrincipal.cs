@@ -51,5 +51,22 @@ namespace CircodeApps
             frmViagem viagem = new frmViagem();
             viagem.Show();
         }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void picbMoeda_Click(object sender, EventArgs e)
+        {
+            frmMoeda moeda = new frmMoeda();
+            moeda.Show();
+        }
+
+        private void picbMegaSena_Click(object sender, EventArgs e)
+        {
+            frmMegaSena megaSena = new frmMegaSena();
+            megaSena.Show();
+        }
     }
 }

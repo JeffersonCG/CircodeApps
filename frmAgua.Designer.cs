@@ -40,9 +40,9 @@
             // 
             this.lblPeso.AutoSize = true;
             this.lblPeso.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPeso.Location = new System.Drawing.Point(0, 0);
+            this.lblPeso.Location = new System.Drawing.Point(13, 25);
             this.lblPeso.Name = "lblPeso";
-            this.lblPeso.Size = new System.Drawing.Size(184, 25);
+            this.lblPeso.Size = new System.Drawing.Size(147, 20);
             this.lblPeso.TabIndex = 0;
             this.lblPeso.Text = "Digite seu peso:";
             this.lblPeso.Click += new System.EventHandler(this.label1_Click);
@@ -58,7 +58,7 @@
             // 
             // txtPeso
             // 
-            this.txtPeso.Location = new System.Drawing.Point(4, 37);
+            this.txtPeso.Location = new System.Drawing.Point(17, 48);
             this.txtPeso.Name = "txtPeso";
             this.txtPeso.Size = new System.Drawing.Size(246, 22);
             this.txtPeso.TabIndex = 2;
@@ -66,9 +66,9 @@
             // btnCalcular
             // 
             this.btnCalcular.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCalcular.Location = new System.Drawing.Point(626, 48);
+            this.btnCalcular.Location = new System.Drawing.Point(617, 48);
             this.btnCalcular.Name = "btnCalcular";
-            this.btnCalcular.Size = new System.Drawing.Size(99, 58);
+            this.btnCalcular.Size = new System.Drawing.Size(108, 72);
             this.btnCalcular.TabIndex = 3;
             this.btnCalcular.Text = "Calcular";
             this.btnCalcular.UseVisualStyleBackColor = true;
@@ -79,9 +79,9 @@
             this.btnSair.BackColor = System.Drawing.Color.Red;
             this.btnSair.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSair.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.btnSair.Location = new System.Drawing.Point(626, 333);
+            this.btnSair.Location = new System.Drawing.Point(617, 325);
             this.btnSair.Name = "btnSair";
-            this.btnSair.Size = new System.Drawing.Size(99, 58);
+            this.btnSair.Size = new System.Drawing.Size(108, 72);
             this.btnSair.TabIndex = 4;
             this.btnSair.Text = "Sair";
             this.btnSair.UseVisualStyleBackColor = false;

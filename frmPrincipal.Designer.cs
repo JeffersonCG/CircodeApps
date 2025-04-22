@@ -40,11 +40,17 @@
             this.label3 = new System.Windows.Forms.Label();
             this.lblViagem = new System.Windows.Forms.Label();
             this.picbViagem = new System.Windows.Forms.PictureBox();
+            this.lblMoeda = new System.Windows.Forms.Label();
+            this.picbMoeda = new System.Windows.Forms.PictureBox();
+            this.lblMegaSena = new System.Windows.Forms.Label();
+            this.picbMegaSena = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.picbImc)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picbData)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picLitro)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picbAgua)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picbViagem)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picbMoeda)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picbMegaSena)).BeginInit();
             this.SuspendLayout();
             // 
             // btnSair
@@ -52,7 +58,7 @@
             this.btnSair.BackColor = System.Drawing.Color.Red;
             this.btnSair.Font = new System.Drawing.Font("Microsoft Sans Serif", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSair.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.btnSair.Location = new System.Drawing.Point(676, 481);
+            this.btnSair.Location = new System.Drawing.Point(876, 481);
             this.btnSair.Name = "btnSair";
             this.btnSair.Size = new System.Drawing.Size(152, 82);
             this.btnSair.TabIndex = 0;
@@ -84,7 +90,7 @@
             // picbData
             // 
             this.picbData.Image = ((System.Drawing.Image)(resources.GetObject("picbData.Image")));
-            this.picbData.Location = new System.Drawing.Point(250, 12);
+            this.picbData.Location = new System.Drawing.Point(277, 12);
             this.picbData.Name = "picbData";
             this.picbData.Size = new System.Drawing.Size(128, 128);
             this.picbData.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -96,7 +102,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(206, 143);
+            this.label1.Location = new System.Drawing.Point(233, 143);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(199, 25);
             this.label1.TabIndex = 4;
@@ -105,7 +111,7 @@
             // picLitro
             // 
             this.picLitro.Image = ((System.Drawing.Image)(resources.GetObject("picLitro.Image")));
-            this.picLitro.Location = new System.Drawing.Point(482, 12);
+            this.picLitro.Location = new System.Drawing.Point(530, 12);
             this.picLitro.Name = "picLitro";
             this.picLitro.Size = new System.Drawing.Size(128, 128);
             this.picLitro.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -117,7 +123,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(463, 143);
+            this.label2.Location = new System.Drawing.Point(511, 143);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(163, 25);
             this.label2.TabIndex = 6;
@@ -126,7 +132,7 @@
             // picbAgua
             // 
             this.picbAgua.Image = ((System.Drawing.Image)(resources.GetObject("picbAgua.Image")));
-            this.picbAgua.Location = new System.Drawing.Point(700, 12);
+            this.picbAgua.Location = new System.Drawing.Point(778, 12);
             this.picbAgua.Name = "picbAgua";
             this.picbAgua.Size = new System.Drawing.Size(128, 128);
             this.picbAgua.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -138,7 +144,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(676, 143);
+            this.label3.Location = new System.Drawing.Point(754, 143);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(172, 25);
             this.label3.TabIndex = 8;
@@ -150,7 +156,7 @@
             this.lblViagem.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblViagem.Location = new System.Drawing.Point(7, 378);
             this.lblViagem.Name = "lblViagem";
-            this.lblViagem.Size = new System.Drawing.Size(238, 31);
+            this.lblViagem.Size = new System.Drawing.Size(190, 25);
             this.lblViagem.TabIndex = 10;
             this.lblViagem.Text = "Calculo de viagem";
             // 
@@ -165,12 +171,59 @@
             this.picbViagem.TabStop = false;
             this.picbViagem.Click += new System.EventHandler(this.picbViagem_Click);
             // 
+            // lblMoeda
+            // 
+            this.lblMoeda.AutoSize = true;
+            this.lblMoeda.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblMoeda.Location = new System.Drawing.Point(232, 378);
+            this.lblMoeda.Name = "lblMoeda";
+            this.lblMoeda.Size = new System.Drawing.Size(213, 25);
+            this.lblMoeda.TabIndex = 12;
+            this.lblMoeda.Text = "Conversor de moeda";
+            this.lblMoeda.Click += new System.EventHandler(this.label4_Click);
+            // 
+            // picbMoeda
+            // 
+            this.picbMoeda.Image = ((System.Drawing.Image)(resources.GetObject("picbMoeda.Image")));
+            this.picbMoeda.Location = new System.Drawing.Point(277, 247);
+            this.picbMoeda.Name = "picbMoeda";
+            this.picbMoeda.Size = new System.Drawing.Size(128, 128);
+            this.picbMoeda.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picbMoeda.TabIndex = 11;
+            this.picbMoeda.TabStop = false;
+            this.picbMoeda.Click += new System.EventHandler(this.picbMoeda_Click);
+            // 
+            // lblMegaSena
+            // 
+            this.lblMegaSena.AutoSize = true;
+            this.lblMegaSena.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblMegaSena.Location = new System.Drawing.Point(478, 378);
+            this.lblMegaSena.Name = "lblMegaSena";
+            this.lblMegaSena.Size = new System.Drawing.Size(247, 25);
+            this.lblMegaSena.TabIndex = 14;
+            this.lblMegaSena.Text = "Numeros da Mega-Sena";
+            // 
+            // picbMegaSena
+            // 
+            this.picbMegaSena.Image = ((System.Drawing.Image)(resources.GetObject("picbMegaSena.Image")));
+            this.picbMegaSena.Location = new System.Drawing.Point(530, 247);
+            this.picbMegaSena.Name = "picbMegaSena";
+            this.picbMegaSena.Size = new System.Drawing.Size(128, 128);
+            this.picbMegaSena.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picbMegaSena.TabIndex = 13;
+            this.picbMegaSena.TabStop = false;
+            this.picbMegaSena.Click += new System.EventHandler(this.picbMegaSena_Click);
+            // 
             // frmPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkSlateGray;
-            this.ClientSize = new System.Drawing.Size(865, 575);
+            this.ClientSize = new System.Drawing.Size(1040, 575);
+            this.Controls.Add(this.lblMegaSena);
+            this.Controls.Add(this.picbMegaSena);
+            this.Controls.Add(this.lblMoeda);
+            this.Controls.Add(this.picbMoeda);
             this.Controls.Add(this.lblViagem);
             this.Controls.Add(this.picbViagem);
             this.Controls.Add(this.label3);
@@ -192,6 +245,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.picLitro)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picbAgua)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picbViagem)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picbMoeda)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picbMegaSena)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -210,6 +265,10 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label lblViagem;
         private System.Windows.Forms.PictureBox picbViagem;
+        private System.Windows.Forms.Label lblMoeda;
+        private System.Windows.Forms.PictureBox picbMoeda;
+        private System.Windows.Forms.Label lblMegaSena;
+        private System.Windows.Forms.PictureBox picbMegaSena;
     }
 }
 

@@ -60,8 +60,13 @@ namespace CircodeApps
             distancia = Convert.ToDouble(txtbDistancia.Text);
             combustivel = distancia / autonomia;
             gasto = combustivel * preco;
-            lblMostrarLitros.Text = combustivel.ToString("F") + "litros gasto.";
-            lblGastos.Text = "R$ " + gasto.ToString("F");
+            lblMostrarLitros.Text = "Serão " + combustivel.ToString("F") + " litros gasto.";
+            lblGastos.Text = "Totalizando R$ " + gasto.ToString("F") + " reais.";
+            txtbPreco.Text = "";
+            txtbAutonomia.Text = "";
+            txtbDistancia.Text = "";
+            this.ActiveControl = txtbAutonomia;
+            txtbAutonomia.Focus();
 
         }
     }
