@@ -21,16 +21,35 @@ namespace CircodeApps
         {
             int quantidade = (int)numQuantidade.Value;
 
-            Random rnd = new Random();
-            HashSet<int> numerosSorteados = new HashSet<int>();
-
-            while (numerosSorteados.Count < quantidade)
+            if (quantidade <= 0)
             {
-                numerosSorteados.Add(rnd.Next(1, 61));
+                MessageBox.Show("Escolha pelo menos um número para sortear.", "Quantidade inválida", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
             }
 
-            var numerosOrdenados = numerosSorteados.OrderBy(n => n).ToList();
-            txtResultado.Text = string.Join(" - ", numerosOrdenados);
+            if (quantidade > 60)
+            {
+                MessageBox.Show("Você só pode sortear no máximo 60 números únicos.", "Limite excedido", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
+            try
+            {
+                Random rnd = new Random();
+                HashSet<int> numerosSorteados = new HashSet<int>();
+
+                while (numerosSorteados.Count < quantidade)
+                {
+                    numerosSorteados.Add(rnd.Next(1, 61));
+                }
+
+                var numerosOrdenados = numerosSorteados.OrderBy(n => n).ToList();
+                txtResultado.Text = string.Join(" - ", numerosOrdenados);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Erro inesperado: " + ex.Message, "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
 
         private void btnSair_Click(object sender, EventArgs e)

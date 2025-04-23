@@ -57,29 +57,52 @@ namespace CircodeApps
             double principal, taxa, montante, jurosMensal, totalJuros = 0;
             int meses;
 
-            // Converte valores de entrada
-            principal = Convert.ToDouble(txtMontante.Text);
-            taxa = Convert.ToDouble(txtTaxa.Text) / 100; // só divide UMA vez aqui
-            meses = Convert.ToInt32(txtTempo.Text);
-
-            // Limpa a listagem anterior
-            ltBParcelas.Items.Clear();
-            ltBParcelas.BeginUpdate();
-
-            for (int i = 1; i <= meses; i++)
+            if (string.IsNullOrWhiteSpace(txtMontante.Text) ||
+                string.IsNullOrWhiteSpace(txtTaxa.Text) ||
+                string.IsNullOrWhiteSpace(txtTempo.Text))
             {
-                // Fórmula do montante para cada mês: M = P * (1 + i)^n
-                montante = principal * Math.Pow((1 + taxa), i);
-                jurosMensal = montante - (principal * Math.Pow((1 + taxa), i - 1));
-                totalJuros += jurosMensal;
-
-                ltBParcelas.Items.Add($"Mês: {i} - Montante: {montante.ToString("C")} - Juros do mês: {jurosMensal.ToString("C")}");
+                MessageBox.Show("Por favor, preencha todos os campos.", "Campos obrigatórios", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
             }
 
-            ltBParcelas.EndUpdate();
+            try
+            {
+                principal = Convert.ToDouble(txtMontante.Text.Replace(',', '.'));
+                taxa = Convert.ToDouble(txtTaxa.Text.Replace(',', '.')) / 100;
+                meses = Convert.ToInt32(txtTempo.Text);
 
-            double montanteFinal = principal * Math.Pow((1 + taxa), meses);
-            lblMostrar.Text = $"Montante final: {montanteFinal.ToString("C")} | Juros total: {totalJuros.ToString("C")}";
+                if (principal <= 0 || taxa <= 0 || meses <= 0)
+                {
+                    MessageBox.Show("Todos os valores devem ser maiores que zero.", "Valores inválidos", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    return;
+                }
+
+                ltBParcelas.Items.Clear();
+                ltBParcelas.BeginUpdate();
+
+                for (int i = 1; i <= meses; i++)
+                {
+                    montante = principal * Math.Pow((1 + taxa), i);
+                    jurosMensal = montante - (principal * Math.Pow((1 + taxa), i - 1));
+                    totalJuros += jurosMensal;
+
+                    ltBParcelas.Items.Add($"Mês: {i} - Montante: {montante.ToString("C")} - Juros do mês: {jurosMensal.ToString("C")}");
+                }
+
+                ltBParcelas.EndUpdate();
+
+                double montanteFinal = principal * Math.Pow((1 + taxa), meses);
+                lblMostrar.Text = $"Montante final: {montanteFinal.ToString("C")} | Juros total: {totalJuros.ToString("C")}";
+
+            }
+            catch (FormatException)
+            {
+                MessageBox.Show("Por favor, insira apenas números válidos. Use vírgula como separador decimal.", "Erro de formato", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Erro inesperado: " + ex.Message, "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
     }
 }

@@ -19,13 +19,32 @@ namespace CircodeApps
 
         private void btnCalcular_Click(object sender, EventArgs e)
         {
-            DateTime data1 = Convert.ToDateTime(mtbData1.Text);
-            DateTime data2 = Convert.ToDateTime(mtbData2.Text);
+            try
+            {
+                if (!mtbData1.MaskFull || !mtbData2.MaskFull)
+                {
+                    MessageBox.Show("Por favor, preencha as duas datas corretamente.", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    return;
+                }
 
-            TimeSpan diferenca = data1 - data2;
-            int dias = Math.Abs(diferenca.Days);
+                bool sucesso1 = DateTime.TryParse(mtbData1.Text, out DateTime data1);
+                bool sucesso2 = DateTime.TryParse(mtbData2.Text, out DateTime data2);
 
-            lblMostrar.Text = $"Diferença de {dias} dias";
+                if (!sucesso1 || !sucesso2)
+                {
+                    MessageBox.Show("Uma ou ambas as datas são inválidas.", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    return;
+                }
+
+                TimeSpan diferenca = data1 - data2;
+                int dias = Math.Abs(diferenca.Days);
+
+                lblMostrar.Text = $"Diferença de {dias} dias";
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Erro inesperado: " + ex.Message, "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
 
         private void btnSair_Click(object sender, EventArgs e)

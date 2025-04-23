@@ -55,19 +55,50 @@ namespace CircodeApps
         private void btnCalcular_Click(object sender, EventArgs e)
         {
             double preco, autonomia, distancia, combustivel, gasto;
-            preco = Convert.ToDouble(txtbPreco.Text);
-            autonomia = Convert.ToDouble(txtbAutonomia.Text);
-            distancia = Convert.ToDouble(txtbDistancia.Text);
-            combustivel = distancia / autonomia;
-            gasto = combustivel * preco;
-            lblMostrarLitros.Text = "Serão " + combustivel.ToString("F") + " litros gasto.";
-            lblGastos.Text = "Totalizando R$ " + gasto.ToString("F") + " reais.";
-            txtbPreco.Text = "";
-            txtbAutonomia.Text = "";
-            txtbDistancia.Text = "";
-            this.ActiveControl = txtbAutonomia;
-            txtbAutonomia.Focus();
 
+            // Verifica se os campos estão vazios
+            if (string.IsNullOrWhiteSpace(txtbPreco.Text) ||
+                string.IsNullOrWhiteSpace(txtbAutonomia.Text) ||
+                string.IsNullOrWhiteSpace(txtbDistancia.Text))
+            {
+                MessageBox.Show("Por favor, preencha todos os campos.", "Campos obrigatórios", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
+            try
+            {
+                preco = Convert.ToDouble(txtbPreco.Text.Replace(',', '.'));
+                autonomia = Convert.ToDouble(txtbAutonomia.Text.Replace(',', '.'));
+                distancia = Convert.ToDouble(txtbDistancia.Text.Replace(',', '.'));
+
+                if (autonomia == 0)
+                {
+                    MessageBox.Show("A autonomia não pode ser zero.", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    return;
+                }
+
+                combustivel = distancia / autonomia;
+                gasto = combustivel * preco;
+
+                lblMostrarLitros.Text = $"Serão {combustivel:F} litros gastos.";
+                lblGastos.Text = $"Totalizando R$ {gasto:F} reais.";
+
+                // Limpa os campos
+                txtbPreco.Text = "";
+                txtbAutonomia.Text = "";
+                txtbDistancia.Text = "";
+
+                this.ActiveControl = txtbAutonomia;
+                txtbAutonomia.Focus();
+            }
+            catch (FormatException)
+            {
+                MessageBox.Show("Por favor, insira apenas valores numéricos válidos (use vírgula como separador decimal).", "Erro de formato", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Erro inesperado: " + ex.Message, "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
     }
 }

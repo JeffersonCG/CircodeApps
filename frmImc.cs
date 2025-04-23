@@ -31,36 +31,62 @@ namespace CircodeApps
         private void btnCalcular_Click(object sender, EventArgs e)
         {
             double peso, altura, resultado;
-            peso = Convert.ToDouble(txtPeso.Text);
-            altura = Convert.ToDouble(txtAltura.Text);
-            resultado = (peso / (altura * altura));
-            lblMostrar.Text = resultado.ToString("F");
-            txtPeso.Text = "";
-            txtAltura.Text = "";
 
-            if (resultado < 18.5)
+            if (string.IsNullOrWhiteSpace(txtPeso.Text) || string.IsNullOrWhiteSpace(txtAltura.Text))
             {
-                MessageBox.Show("Magreza", "IMC", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("Por favor, preencha todos os campos.", "Campos obrigatórios", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
             }
-            else if (resultado <= 24.9)
+
+            try
             {
-                MessageBox.Show("Normal", "IMC", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                peso = Convert.ToDouble(txtPeso.Text);
+                altura = Convert.ToDouble(txtAltura.Text);
+
+                if (altura == 0)
+                {
+                    MessageBox.Show("A altura não pode ser zero.", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    return;
+                }
+
+                resultado = peso / (altura * altura);
+                lblMostrar.Text = resultado.ToString("F");
+
+                txtPeso.Text = "";
+                txtAltura.Text = "";
+
+                if (resultado < 18.5)
+                {
+                    MessageBox.Show("Magreza", "IMC", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+                else if (resultado <= 24.9)
+                {
+                    MessageBox.Show("Normal", "IMC", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+                else if (resultado <= 29.9)
+                {
+                    MessageBox.Show("Sobrepeso", "IMC", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+                else if (resultado <= 34.9)
+                {
+                    MessageBox.Show("Obesidade grau I", "IMC", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+                else if (resultado <= 39.9)
+                {
+                    MessageBox.Show("Obesidade grau II", "IMC", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+                else
+                {
+                    MessageBox.Show("Obesidade grau III", "IMC", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
             }
-            else if (resultado <= 29.9)
+            catch (FormatException)
             {
-                MessageBox.Show("Sobrepeso", "IMC", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("Por favor, insira valores numéricos válidos.", "Erro de formato", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-            else if (resultado <= 34.9)
+            catch (Exception ex)
             {
-                MessageBox.Show("Obesidade grau I", "IMC", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            }
-            else if (resultado <= 39.9)
-            {
-                MessageBox.Show("Obesidade grau II", "IMC", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            }
-            else
-            {
-                MessageBox.Show("Obesidade grau III", "IMC", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("Erro inesperado: " + ex.Message, "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
 
         }
@@ -81,5 +107,7 @@ namespace CircodeApps
             }
 
         }
+
+
     }
 }
