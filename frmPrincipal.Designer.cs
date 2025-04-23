@@ -44,6 +44,8 @@
             this.picbMoeda = new System.Windows.Forms.PictureBox();
             this.lblMegaSena = new System.Windows.Forms.Label();
             this.picbMegaSena = new System.Windows.Forms.PictureBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.picbImc)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picbData)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picLitro)).BeginInit();
@@ -51,6 +53,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.picbViagem)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picbMoeda)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picbMegaSena)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // btnSair
@@ -214,12 +217,36 @@
             this.picbMegaSena.TabStop = false;
             this.picbMegaSena.Click += new System.EventHandler(this.picbMegaSena_Click);
             // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(754, 378);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(176, 25);
+            this.label4.TabIndex = 16;
+            this.label4.Text = "Juros compostos";
+            this.label4.Click += new System.EventHandler(this.label4_Click_1);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(778, 247);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(128, 128);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 15;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            // 
             // frmPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkSlateGray;
             this.ClientSize = new System.Drawing.Size(1040, 575);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.lblMegaSena);
             this.Controls.Add(this.picbMegaSena);
             this.Controls.Add(this.lblMoeda);
@@ -247,6 +274,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.picbViagem)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picbMoeda)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picbMegaSena)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -269,6 +297,8 @@
         private System.Windows.Forms.PictureBox picbMoeda;
         private System.Windows.Forms.Label lblMegaSena;
         private System.Windows.Forms.PictureBox picbMegaSena;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
 

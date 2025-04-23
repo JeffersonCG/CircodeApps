@@ -3,28 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\ACB Fibra\\Documents\\Projetos\\CircodeApps\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A43DD978-AC01-4D1A-A7C7-0EFEE33BAB2F}|CircodeApps.csproj|c:\\users\\acb fibra\\documents\\projetos\\circodeapps\\frmmegasena.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A43DD978-AC01-4D1A-A7C7-0EFEE33BAB2F}|CircodeApps.csproj|solutionrelative:frmmegasena.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{A43DD978-AC01-4D1A-A7C7-0EFEE33BAB2F}|CircodeApps.csproj|c:\\users\\acb fibra\\documents\\projetos\\circodeapps\\frmjuros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A43DD978-AC01-4D1A-A7C7-0EFEE33BAB2F}|CircodeApps.csproj|solutionrelative:frmjuros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A43DD978-AC01-4D1A-A7C7-0EFEE33BAB2F}|CircodeApps.csproj|c:\\users\\acb fibra\\documents\\projetos\\circodeapps\\frmmegasena.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A43DD978-AC01-4D1A-A7C7-0EFEE33BAB2F}|CircodeApps.csproj|solutionrelative:frmmegasena.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A43DD978-AC01-4D1A-A7C7-0EFEE33BAB2F}|CircodeApps.csproj|C:\\Users\\ACB Fibra\\Documents\\Projetos\\CircodeApps\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A43DD978-AC01-4D1A-A7C7-0EFEE33BAB2F}|CircodeApps.csproj|solutionrelative:frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A43DD978-AC01-4D1A-A7C7-0EFEE33BAB2F}|CircodeApps.csproj|c:\\users\\acb fibra\\documents\\projetos\\circodeapps\\frmjuros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A43DD978-AC01-4D1A-A7C7-0EFEE33BAB2F}|CircodeApps.csproj|solutionrelative:frmjuros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A43DD978-AC01-4D1A-A7C7-0EFEE33BAB2F}|CircodeApps.csproj|c:\\users\\acb fibra\\documents\\projetos\\circodeapps\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{A43DD978-AC01-4D1A-A7C7-0EFEE33BAB2F}|CircodeApps.csproj|solutionrelative:frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A43DD978-AC01-4D1A-A7C7-0EFEE33BAB2F}|CircodeApps.csproj|C:\\Users\\ACB Fibra\\Documents\\Projetos\\CircodeApps\\frmmoeda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A43DD978-AC01-4D1A-A7C7-0EFEE33BAB2F}|CircodeApps.csproj|solutionrelative:frmmoeda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A43DD978-AC01-4D1A-A7C7-0EFEE33BAB2F}|CircodeApps.csproj|C:\\Users\\ACB Fibra\\Documents\\Projetos\\CircodeApps\\frmmoeda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A43DD978-AC01-4D1A-A7C7-0EFEE33BAB2F}|CircodeApps.csproj|solutionrelative:frmmoeda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,11 +22,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "frmPrincipal.cs [Design]",
               "DocumentMoniker": "C:\\Users\\ACB Fibra\\Documents\\Projetos\\CircodeApps\\frmPrincipal.cs",
               "RelativeDocumentMoniker": "frmPrincipal.cs",
@@ -51,67 +39,30 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "frmPrincipal.cs",
-              "DocumentMoniker": "C:\\Users\\ACB Fibra\\Documents\\Projetos\\CircodeApps\\frmPrincipal.cs",
-              "RelativeDocumentMoniker": "frmPrincipal.cs",
-              "ToolTip": "C:\\Users\\ACB Fibra\\Documents\\Projetos\\CircodeApps\\frmPrincipal.cs",
-              "RelativeToolTip": "frmPrincipal.cs",
-              "ViewState": "AgIAADcAAAAAAAAAAAAqwEQAAAAcAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "frmJuros.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ACB Fibra\\Documents\\Projetos\\CircodeApps\\frmJuros.cs",
+              "RelativeDocumentMoniker": "frmJuros.cs",
+              "ToolTip": "C:\\Users\\ACB Fibra\\Documents\\Projetos\\CircodeApps\\frmJuros.cs [Design]",
+              "RelativeToolTip": "frmJuros.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T14:12:47.992Z",
+              "WhenOpened": "2025-04-23T18:36:40.088Z",
               "IsPinned": true,
-              "EditorCaption": ""
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "frmMegaSena.cs",
-              "DocumentMoniker": "C:\\Users\\ACB Fibra\\Documents\\Projetos\\CircodeApps\\frmMegaSena.cs",
-              "RelativeDocumentMoniker": "frmMegaSena.cs",
-              "ToolTip": "C:\\Users\\ACB Fibra\\Documents\\Projetos\\CircodeApps\\frmMegaSena.cs",
-              "RelativeToolTip": "frmMegaSena.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAACUAAAAZAAAAAAAAAA==",
+              "Title": "frmJuros.cs",
+              "DocumentMoniker": "C:\\Users\\ACB Fibra\\Documents\\Projetos\\CircodeApps\\frmJuros.cs",
+              "RelativeDocumentMoniker": "frmJuros.cs",
+              "ToolTip": "C:\\Users\\ACB Fibra\\Documents\\Projetos\\CircodeApps\\frmJuros.cs",
+              "RelativeToolTip": "frmJuros.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwFEAAAB5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-23T14:07:11.8Z",
+              "WhenOpened": "2025-04-23T18:50:17.011Z",
+              "IsPinned": true,
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "frmMegaSena.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\ACB Fibra\\Documents\\Projetos\\CircodeApps\\frmMegaSena.cs",
-              "RelativeDocumentMoniker": "frmMegaSena.cs",
-              "ToolTip": "C:\\Users\\ACB Fibra\\Documents\\Projetos\\CircodeApps\\frmMegaSena.cs [Design]",
-              "RelativeToolTip": "frmMegaSena.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-23T13:57:44.223Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "frmMoeda.cs",
-              "DocumentMoniker": "C:\\Users\\ACB Fibra\\Documents\\Projetos\\CircodeApps\\frmMoeda.cs",
-              "RelativeDocumentMoniker": "frmMoeda.cs",
-              "ToolTip": "C:\\Users\\ACB Fibra\\Documents\\Projetos\\CircodeApps\\frmMoeda.cs",
-              "RelativeToolTip": "frmMoeda.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAuwCEAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T21:36:55.284Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "frmMoeda.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\ACB Fibra\\Documents\\Projetos\\CircodeApps\\frmMoeda.cs",
-              "RelativeDocumentMoniker": "frmMoeda.cs",
-              "ToolTip": "C:\\Users\\ACB Fibra\\Documents\\Projetos\\CircodeApps\\frmMoeda.cs [Design]",
-              "RelativeToolTip": "frmMoeda.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T20:29:36.805Z",
-              "EditorCaption": " [Design]"
             }
           ]
         }

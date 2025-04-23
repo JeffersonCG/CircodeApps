@@ -68,5 +68,17 @@ namespace CircodeApps
             frmMegaSena megaSena = new frmMegaSena();
             megaSena.Show();
         }
+
+        private void label4_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            frmJuros juros = new frmJuros();
+            juros.Show();
+
+        }
     }
 }
