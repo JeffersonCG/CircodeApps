@@ -50,7 +50,7 @@
             this.btnCalcular.Name = "btnCalcular";
             this.btnCalcular.Size = new System.Drawing.Size(111, 47);
             this.btnCalcular.TabIndex = 0;
-            this.btnCalcular.Text = "Calcular";
+            this.btnCalcular.Text = "&Calcular";
             this.btnCalcular.UseVisualStyleBackColor = true;
             this.btnCalcular.Click += new System.EventHandler(this.btnCalcular_Click);
             // 
@@ -63,7 +63,7 @@
             this.btnSair.Name = "btnSair";
             this.btnSair.Size = new System.Drawing.Size(111, 47);
             this.btnSair.TabIndex = 1;
-            this.btnSair.Text = "Sair";
+            this.btnSair.Text = "&Sair";
             this.btnSair.UseVisualStyleBackColor = false;
             this.btnSair.Click += new System.EventHandler(this.btnSair_Click);
             // 
@@ -73,9 +73,9 @@
             this.lblReal.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblReal.Location = new System.Drawing.Point(12, 31);
             this.lblReal.Name = "lblReal";
-            this.lblReal.Size = new System.Drawing.Size(208, 20);
+            this.lblReal.Size = new System.Drawing.Size(249, 20);
             this.lblReal.TabIndex = 2;
-            this.lblReal.Text = "Digite o valor em Real:";
+            this.lblReal.Text = "Digite o valor em Real (R$):";
             // 
             // lblDolar
             // 
@@ -83,7 +83,7 @@
             this.lblDolar.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblDolar.Location = new System.Drawing.Point(12, 102);
             this.lblDolar.Name = "lblDolar";
-            this.lblDolar.Size = new System.Drawing.Size(171, 20);
+            this.lblDolar.Size = new System.Drawing.Size(137, 16);
             this.lblDolar.TabIndex = 3;
             this.lblDolar.Text = "Valor em Dolar ($):";
             // 
@@ -93,7 +93,7 @@
             this.lblResultadoDolar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblResultadoDolar.Location = new System.Drawing.Point(12, 118);
             this.lblResultadoDolar.Name = "lblResultadoDolar";
-            this.lblResultadoDolar.Size = new System.Drawing.Size(0, 31);
+            this.lblResultadoDolar.Size = new System.Drawing.Size(0, 25);
             this.lblResultadoDolar.TabIndex = 4;
             // 
             // lblEuro
@@ -102,7 +102,7 @@
             this.lblEuro.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblEuro.Location = new System.Drawing.Point(12, 162);
             this.lblEuro.Name = "lblEuro";
-            this.lblEuro.Size = new System.Drawing.Size(164, 20);
+            this.lblEuro.Size = new System.Drawing.Size(131, 16);
             this.lblEuro.TabIndex = 5;
             this.lblEuro.Text = "Valor em Euro (€):";
             // 
@@ -112,7 +112,7 @@
             this.lblResultadoEuro.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblResultadoEuro.Location = new System.Drawing.Point(12, 178);
             this.lblResultadoEuro.Name = "lblResultadoEuro";
-            this.lblResultadoEuro.Size = new System.Drawing.Size(0, 31);
+            this.lblResultadoEuro.Size = new System.Drawing.Size(0, 25);
             this.lblResultadoEuro.TabIndex = 6;
             // 
             // lblLibra
@@ -121,7 +121,7 @@
             this.lblLibra.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblLibra.Location = new System.Drawing.Point(12, 223);
             this.lblLibra.Name = "lblLibra";
-            this.lblLibra.Size = new System.Drawing.Size(163, 20);
+            this.lblLibra.Size = new System.Drawing.Size(130, 16);
             this.lblLibra.TabIndex = 7;
             this.lblLibra.Text = "Valor em Libra(£):";
             // 
@@ -131,7 +131,7 @@
             this.lblResultadoLibra.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblResultadoLibra.Location = new System.Drawing.Point(12, 239);
             this.lblResultadoLibra.Name = "lblResultadoLibra";
-            this.lblResultadoLibra.Size = new System.Drawing.Size(0, 31);
+            this.lblResultadoLibra.Size = new System.Drawing.Size(0, 25);
             this.lblResultadoLibra.TabIndex = 8;
             // 
             // lblYen
@@ -140,7 +140,7 @@
             this.lblYen.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblYen.Location = new System.Drawing.Point(12, 294);
             this.lblYen.Name = "lblYen";
-            this.lblYen.Size = new System.Drawing.Size(161, 20);
+            this.lblYen.Size = new System.Drawing.Size(129, 16);
             this.lblYen.TabIndex = 9;
             this.lblYen.Text = "Valor em Iene (¥):";
             // 
@@ -150,7 +150,7 @@
             this.lblResultadoYen.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblResultadoYen.Location = new System.Drawing.Point(12, 310);
             this.lblResultadoYen.Name = "lblResultadoYen";
-            this.lblResultadoYen.Size = new System.Drawing.Size(0, 31);
+            this.lblResultadoYen.Size = new System.Drawing.Size(0, 25);
             this.lblResultadoYen.TabIndex = 10;
             // 
             // txtReal
