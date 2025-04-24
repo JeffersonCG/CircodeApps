@@ -20,3 +20,4 @@ C:\Users\ACB Fibra\Documents\Projetos\CircodeApps\bin\Debug\CircodeApps.exe.mani
 C:\Users\ACB Fibra\Documents\Projetos\CircodeApps\bin\Debug\CircodeApps.application
 C:\Users\ACB Fibra\Documents\Projetos\CircodeApps\obj\Debug\CircodeApps.exe.manifest
 C:\Users\ACB Fibra\Documents\Projetos\CircodeApps\obj\Debug\CircodeApps.application
+C:\Users\ACB Fibra\Documents\Projetos\CircodeApps\obj\Debug\CircodeApps.frmHorario.resources

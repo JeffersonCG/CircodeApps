@@ -42,14 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="CircodeApps.exe" size="402424">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="CircodeApps.exe" size="490488">
       <assemblyIdentity name="CircodeApps" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>O2pO84GKkIS98nhOZjcIosE1kR36ZodoI9x66KQITtA=</dsig:DigestValue>
+        <dsig:DigestValue>SEuM6O4R/7AkdWjH30fnNgHdEH16FiXDHejQ2MiPc5c=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

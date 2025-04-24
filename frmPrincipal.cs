@@ -80,5 +80,11 @@ namespace CircodeApps
             juros.Show();
 
         }
+
+        private void picBHorario_Click(object sender, EventArgs e)
+        {
+            frmHorario horario = new frmHorario();
+            horario.Show();
+        }
     }
 }
